@@ -1,0 +1,14 @@
+[
+    {
+        "query": "How can I build an Ubuntu Image?",
+        "response": "1. Install `ubuntu-image` tool: `snap install --classic ubuntu-image`\n2. Create a model assertion (JSON file) defining your image configuration.  An example for a Raspberry Pi 3 using Core 18 is provided in the reference.\n3. Sign your model assertion using `snap sign -k <key name>`.  You'll need a snapcraft key; instructions for creating and registering one are in the reference.\n4. Build the image using `sudo ubuntu-image -c beta -O pi3-test pi3.model`.  Replace `beta` with your desired channel, `pi3-test` with your output directory, and `pi3.model` with your signed model assertion file.  The `--extra-snaps` argument can add pre-installed snaps.\n5. Write the image to an SD card using `sudo dd if=pi3-test/pi3.img of=/dev/sdXX bs=32M; sync`. Replace `sdXX` with your SD card's device node."
+    },
+    {
+        "query": "How can I do it for a specific version?",
+        "response": "To build an Ubuntu Core image for a specific version (Core 18 or Core 16), modify the `base` field in your model assertion JSON file.\n\nFor Core 18:\n\n```json\n\"base\": \"core18\"\n```\n\nFor Core 16:\n\n```json\n\"base\": \"core16\"\n```\n\nAlso adjust the `gadget` and `kernel` fields accordingly, as shown in the example for a Raspberry Pi 3:\n\nCore 18:\n\n```json\n\"gadget\": \"pi=18-pi3\",\n\"kernel\": \"pi-kernel=18-pi3\"\n```\n\nCore 16:\n\n```json\n\"gadget\": \"pi3\",\n\"kernel\": \"pi2-kernel\"\n```"
+    },
+    {
+        "query": "How can I do it for my specific version?",
+        "response": "To build an Ubuntu Core image for a specific version (Core 18 or Core 16), follow these steps:\n\n1. Modify the `base` field in your model assertion JSON file.  For Core 18, use `\"base\": \"core18\"`. For Core 16, use `\"base\": \"core16\"`.\n\n2. Adjust the `gadget` and `kernel` fields accordingly.  Refer to the provided examples for a Raspberry Pi 3.  For Core 18, use `\"gadget\": \"pi=18-pi3\", \"kernel\": \"pi-kernel=18-pi3\"`. For Core 16, use `\"gadget\": \"pi3\", \"kernel\": \"pi2-kernel\"`.\n\n3. Ensure that the `gadget` and `kernel` snaps you specify exist in the store or in your current directory.\n\n4.  Sign your updated model assertion using `snap sign -k <key name>`.\n\n5. Build the image using `sudo ubuntu-image -c <channel> -O <output_directory> <signed_model_assertion_file>`.  Replace `<channel>` with your desired channel, `<output_directory>` with your chosen output directory, and `<signed_model_assertion_file>` with the path to your signed model assertion file.  You can use the `--extra-snaps` argument to include additional snaps."
+    }
+]

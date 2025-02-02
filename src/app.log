@@ -1,0 +1,27 @@
+[2025-02-01 20:57:59,274] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-01 20:57:59,275] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-01 20:58:03,151] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-01 20:59:55,876] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-01 20:59:55,877] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-01 20:59:59,237] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-01 21:00:20,210] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-01 21:00:20,210] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-01 21:00:23,408] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 00:30:04,076] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 00:30:04,077] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 00:30:08,371] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 00:31:58,527] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 00:31:58,528] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 00:32:04,191] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 00:32:14,429] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 00:32:14,429] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 00:32:18,111] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 00:32:27,801] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 00:32:27,801] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 00:32:31,832] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 00:32:41,254] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 00:32:41,254] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 00:32:44,728] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[2025-02-02 13:11:18,703] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:210 - Use pytorch device_name: cpu
+[2025-02-02 13:11:18,703] INFO - sentence_transformers.SentenceTransformer - SentenceTransformer.py:218 - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+[2025-02-02 13:11:22,911] INFO - chromadb.telemetry.product.posthog - posthog.py:22 - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.

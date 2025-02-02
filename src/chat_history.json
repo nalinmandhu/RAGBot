@@ -1,0 +1,14 @@
+[
+    {
+        "query": "How do I configure automatic security updates?",
+        "response": "Installed snaps are automatically refreshed a few times a day if a different revision is available on the tracked channel.  To check the schedule, use: `snap refresh --time`.\nTo view the state of recent updates: `snap changes`.\nTo view details of a specific update, use its ID with: `snap change <ID>`.\nFor more information on `snap refresh`, see [Keeping snaps up to date](https://snapcraft.io/docs/keeping-snaps-up-to-date)."
+    },
+    {
+        "query": "How do I enable remote access and management?",
+        "response": "Access to a self-deployed Ubuntu Core system is via the networking configuration and SSH key linked to the Ubuntu SSO account used to set up the system.\nIf you have a display connected to your device, it will display the account and IP address, alongside host key fingerprints, upon successful boot.\nBy default, you can only access your deployed Ubuntu Core system from SSH."
+    },
+    {
+        "query": "How do I configure a firewall on Ubuntu Core?",
+        "response": "The provided text does not contain instructions on how to configure a firewall on Ubuntu Core.  However, it mentions a `firewall-control` interface.  Further information on this interface would be needed to provide instructions on firewall configuration."
+    }
+]
