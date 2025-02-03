@@ -6,3 +6,4 @@ RAG bot on Ubuntu Docs
 # FurtherImprovements.md contain steps on how can we further improve the accuracy
 # chat_history.json contains last 3 query and answers
 # results.md contains the screenshots of Chatbot query resolution
+# cot_workflow.md has the workflow of the paper "Chain of Thought Reasoning Without Prompting"
